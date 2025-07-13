@@ -1,0 +1,44 @@
+# Ignore build output
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore Visual Studio working folder
+.vs/
+
+# Ignore Rider IDE files (optional)
+.idea/
+
+# Ignore user secrets and config
+secrets.json
+*.swp
+*.log
+*.vscode/
+
+# Ignore EF Core migration snapshots (optional)
+Migrations/ModelSnapshot.cs
+
+# Ignore local database files
+*.mdf
+*.ldf
+
+# Ignore auto-generated files
+*.dbmdl
+*.ncrunch*
+*.TestResults/
+*.DS_Store
+*.Coverage/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Ignore publish folder (if used)
+publish/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
