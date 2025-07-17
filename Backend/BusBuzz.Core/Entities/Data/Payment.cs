@@ -8,7 +8,10 @@ public class Payment
     public string Method { get; set; }
     public string Status { get; set; }
     public DateTime Timestamp { get; set; }
-
     public Guid CustomerId { get; set; }
     public Customer Customer { get; set; }
+    public ICollection<Payment> Payments { get; set; }
+    public Guid BookingId { get; set; }
+    public Booking Booking { get; set; }
+
 }
